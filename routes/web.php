@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/vol','VolController@index') ; 
 
 
+
+Route::get('/imad','ImadController@funct');
